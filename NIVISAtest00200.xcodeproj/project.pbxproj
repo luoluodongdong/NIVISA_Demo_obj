@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CAF49862153A90100CE4FB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF49852153A90100CE4FB4 /* AppDelegate.m */; };
+		1CAF49882153A90300CE4FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF49872153A90300CE4FB4 /* Assets.xcassets */; };
+		1CAF498B2153A90300CE4FB4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF49892153A90300CE4FB4 /* MainMenu.xib */; };
+		1CAF498E2153A90300CE4FB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF498D2153A90300CE4FB4 /* main.m */; };
+		1CAF49972153A91800CE4FB4 /* VISA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAF49962153A91800CE4FB4 /* VISA.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CAF49812153A90100CE4FB4 /* NIVISAtest00200.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIVISAtest00200.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAF49842153A90100CE4FB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CAF49852153A90100CE4FB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CAF49872153A90300CE4FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CAF498A2153A90300CE4FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1CAF498C2153A90300CE4FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAF498D2153A90300CE4FB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CAF498F2153A90300CE4FB4 /* NIVISAtest00200.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NIVISAtest00200.entitlements; sourceTree = "<group>"; };
+		1CAF49952153A90F00CE4FB4 /* NIVISAHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIVISAHelp.h; sourceTree = "<group>"; };
+		1CAF49962153A91800CE4FB4 /* VISA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VISA.framework; sourceTree = "<group>"; };
+		1CAF49982153A9D500CE4FB4 /* visa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visa.h; sourceTree = "<group>"; };
+		1CAF499A2153A9E200CE4FB4 /* visatype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visatype.h; sourceTree = "<group>"; };
+		1CAF499B2153A9F000CE4FB4 /* vpptype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vpptype.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CAF497E2153A90100CE4FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAF49972153A91800CE4FB4 /* VISA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CACFE9F21549DAA00029855 /* NIVISA */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF49982153A9D500CE4FB4 /* visa.h */,
+				1CAF49952153A90F00CE4FB4 /* NIVISAHelp.h */,
+				1CAF499A2153A9E200CE4FB4 /* visatype.h */,
+				1CAF499B2153A9F000CE4FB4 /* vpptype.h */,
+			);
+			path = NIVISA;
+			sourceTree = "<group>";
+		};
+		1CAF49782153A90100CE4FB4 = {
+			isa = PBXGroup;
+			children = (
+				1CAF49832153A90100CE4FB4 /* NIVISAtest00200 */,
+				1CAF49822153A90100CE4FB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CAF49822153A90100CE4FB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF49812153A90100CE4FB4 /* NIVISAtest00200.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CAF49832153A90100CE4FB4 /* NIVISAtest00200 */ = {
+			isa = PBXGroup;
+			children = (
+				1CACFE9F21549DAA00029855 /* NIVISA */,
+				1CAF49842153A90100CE4FB4 /* AppDelegate.h */,
+				1CAF49852153A90100CE4FB4 /* AppDelegate.m */,
+				1CAF49872153A90300CE4FB4 /* Assets.xcassets */,
+				1CAF49892153A90300CE4FB4 /* MainMenu.xib */,
+				1CAF498C2153A90300CE4FB4 /* Info.plist */,
+				1CAF498D2153A90300CE4FB4 /* main.m */,
+				1CAF498F2153A90300CE4FB4 /* NIVISAtest00200.entitlements */,
+				1CAF49962153A91800CE4FB4 /* VISA.framework */,
+			);
+			path = NIVISAtest00200;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CAF49802153A90100CE4FB4 /* NIVISAtest00200 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAF49922153A90300CE4FB4 /* Build configuration list for PBXNativeTarget "NIVISAtest00200" */;
+			buildPhases = (
+				1CAF497D2153A90100CE4FB4 /* Sources */,
+				1CAF497E2153A90100CE4FB4 /* Frameworks */,
+				1CAF497F2153A90100CE4FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NIVISAtest00200;
+			productName = NIVISAtest00200;
+			productReference = 1CAF49812153A90100CE4FB4 /* NIVISAtest00200.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CAF49792153A90100CE4FB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "曹伟东";
+				TargetAttributes = {
+					1CAF49802153A90100CE4FB4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1CAF497C2153A90100CE4FB4 /* Build configuration list for PBXProject "NIVISAtest00200" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CAF49782153A90100CE4FB4;
+			productRefGroup = 1CAF49822153A90100CE4FB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CAF49802153A90100CE4FB4 /* NIVISAtest00200 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CAF497F2153A90100CE4FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAF49882153A90300CE4FB4 /* Assets.xcassets in Resources */,
+				1CAF498B2153A90300CE4FB4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CAF497D2153A90100CE4FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAF498E2153A90300CE4FB4 /* main.m in Sources */,
+				1CAF49862153A90100CE4FB4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1CAF49892153A90300CE4FB4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CAF498A2153A90300CE4FB4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CAF49902153A90300CE4FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1CAF49912153A90300CE4FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1CAF49932153A90300CE4FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NIVISAtest00200",
+				);
+				INFOPLIST_FILE = NIVISAtest00200/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testxcode.NIVISAtest00200;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CAF49942153A90300CE4FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NIVISAtest00200",
+				);
+				INFOPLIST_FILE = NIVISAtest00200/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testxcode.NIVISAtest00200;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CAF497C2153A90100CE4FB4 /* Build configuration list for PBXProject "NIVISAtest00200" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAF49902153A90300CE4FB4 /* Debug */,
+				1CAF49912153A90300CE4FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAF49922153A90300CE4FB4 /* Build configuration list for PBXNativeTarget "NIVISAtest00200" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAF49932153A90300CE4FB4 /* Debug */,
+				1CAF49942153A90300CE4FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CAF49792153A90100CE4FB4 /* Project object */;
+}
